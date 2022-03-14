@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.game-area {
+    position: relative;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sponge {
+    position: absolute;
+    background-image: url("../img/sponge.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.star {
+    position: absolute;
+    background-image: url("../img/star.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.squid {
+    position: absolute;
+    background-image: url("../img/squid.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sponge, .squid, .star {
+    cursor: pointer;
+}
